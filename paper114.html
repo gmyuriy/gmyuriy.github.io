@@ -1,0 +1,18 @@
+<html><head><title>Yuriy Mishchenko: Low-bit quantization and quantization-aware training for small-footprint key- word spotting, 2019</title></head><body>
+		<h1>Yuriy Mishchenko Papers:<br>Mishchenko Y., Goren Y., Sun M., Beauchene C., Matsoukas S., Rybakov O., Vitaladevuni S. (2019) "Low-bit quantization and quantization-aware training for small-footprint keyword spotting." in Proc. 2019 18th IEEE International Conference on Machine Learning and
+Applications (ICMLA), 706-711</h1> 
+		In this paper, we investigate novel quantization
+approaches to reduce memory and computational footprint of
+deep neural network (DNN) based keyword spotters (KWS). We
+propose a new method for KWS offline and online quantization,
+which we call dynamic quantization, where we quantize DNN
+weight matrices column-wise, using each column's exact individual min-max range, and the DNN layers' inputs and outputs
+are quantized for every input audio frame individually, using the
+exact min-max range of each input and output vector. We further
+apply a new quantization-aware training approach that allows
+us to incorporate quantization errors into KWS model during
+training. Together, these approaches allow us to significantly
+improve the performance of KWS in 4-bit and 8-bit quantized
+precision, achieving the end-to-end accuracy close to that of full
+precision models while reducing the models' on-device memory
+footprint by up to 80%.  <a href=icmla-2019-reprint.pdf>Full text</a></body></html>

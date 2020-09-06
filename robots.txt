@@ -1,0 +1,10 @@
+User-agent: *
+
+# Directories
+Disallow: /private/
+
+# Paths (clean URLs)
+Disallow: http://www.yumishch.me/private/
+Disallow: http://yumishch.me/private/
+Disallow: http://yumishch.dynu.net/private/
+Disallow: /private/
